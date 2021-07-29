@@ -1,0 +1,119 @@
+body h2 {
+  color: #fff;
+  margin: 0; }
+
+body p {
+  margin: 0; }
+
+.navbar {
+  background: #000; }
+  .navbar .nav-item {
+    padding-left: 1em; }
+
+.carousel-item {
+  height: 450px; }
+
+.carousel-img-1 {
+  background-image: url("../img/image1.jpeg");
+  background-size: cover; }
+
+.carousel-img-2 {
+  background-image: url("../img/image2.jpeg");
+  background-size: cover; }
+
+.carousel-img-3 {
+  background-image: url("../img/image3.jpeg");
+  background-size: cover; }
+
+#homeicon .fa {
+  font-size: 50px; }
+
+#home-get {
+  background-image: url("../img/bg1.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: relative;
+  min-height: 250px; }
+  #home-get .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  #home-get h3 {
+    color: #fff; }
+
+#videos {
+  background-image: url("../img/people.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: relative;
+  min-height: 250px; }
+  #videos .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+    #videos .dark-overlay .fa {
+      font-size: 50px;
+      color: #ff0000; }
+
+#gallery img {
+  min-height: 250px; }
+
+#copyright {
+  background: #000; }
+
+#ab-header {
+  background-image: url("../img/image1.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 200px; }
+
+#about-info img {
+  width: 350px;
+  height: 350px; }
+
+#icon-box h3 {
+  color: #fff; }
+
+#icon-box .fa {
+  font-size: 50px; }
+
+#tastimonial button {
+  border-radius: 10px; }
+
+#tastimonial button:first-child {
+  background: #17A2B8;
+  border: none;
+  padding: 4px 12px;
+  color: #fff; }
+
+#tastimonial button:last-child {
+  background: #17A2B8;
+  border: none;
+  padding: 4px 12px;
+  color: #fff; }
+
+#services-header {
+  background-image: url("../img/image3.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 200px; }
+
+@media (max-width: 767px) {
+  .nav-item {
+    padding-left: 0 !important; }
+  #home-get {
+    min-height: 300px; } }
+
+@media (max-width: 480px) {
+  .carousel-item h2 {
+    font-size: 2.5rem; }
+  #home-get {
+    min-height: 400px; } }
